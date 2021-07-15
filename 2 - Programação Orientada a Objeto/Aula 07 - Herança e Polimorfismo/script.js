@@ -5,13 +5,16 @@ class Pessoa {
     }
 }
 
-class Cidadão extends Pessoa { // extends (deixar claro que vai herdar os atributos do pai)
+class Cidadão extends Pessoa {
     constructor(nome, idade, cpf, rg) {
-        super(nome, idade) // pega os  atributos da classe pai
+        super(nome, idade) 
         this.cpf = cpf
         this.rg = rg
     }
 }
+
+// super (pega os  atributos da classe pai)
+// extends (deixar claro que vai herdar os atributos do pai)
 
 const cidadão = new Cidadão('Saulo', 24, '000', '1111') // nome, idade (pai) - rg, cpf (filho)
 console.log(cidadão)
