@@ -19,5 +19,5 @@ class Cidadão extends Pessoa {
 const cidadão = new Cidadão('Saulo', 24, '000', '1111') // nome, idade (pai) - rg, cpf (filho)
 console.log(cidadão)
 
-console.log(cidadão instanceof Cidadão) // true
+console.log(cidadão instanceof Cidadão) // true; saber se é da classe que passamos
 console.log(cidadão instanceof Pessoa) // true
