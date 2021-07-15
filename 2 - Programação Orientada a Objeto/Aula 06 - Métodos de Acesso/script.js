@@ -16,7 +16,7 @@ quadrado.setCor('red') // altera para red
 
 console.log(quadrado.getCor())
 
-/* Método de acesso */
+/* Accessors */
 
 class Quadrado2 {
 
