@@ -3,7 +3,7 @@ import React from 'react';
 class App3 extends React.Component {
     constructor(props){
         super(props);
-        this.state = {nome: ''};
+        this.state = {nome: '', idade: 24};
     }
 
     changeName = (event) => {
@@ -23,3 +23,4 @@ class App3 extends React.Component {
 }
 
 export default App3;
+// setState() - atualiza o componente na tela 
