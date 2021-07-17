@@ -11,14 +11,14 @@ class App3 extends React.Component {
     }
 
     render(){
-    return (
-        <>
-            Nome: <input type="text" value={this.state.nome} onChange={this.changeName}></input>
-            <p>
-                Olá {this.state.nome}
-            </p>
-        </>
-    );
+        return (
+            <>
+                Nome: <input type="text" value={this.state.nome} onChange={this.changeName}></input>
+                <p>
+                    Olá {this.state.nome}
+                </p>
+            </>
+        );
     }
 }
 
