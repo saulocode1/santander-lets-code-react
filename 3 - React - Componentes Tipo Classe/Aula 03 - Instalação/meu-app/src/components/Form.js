@@ -12,7 +12,7 @@ class Form extends React.Component {
         }
 
         this.handleSubmit = (event) => {
-            event.preventDefault()
+            event.preventDefault() // não atualiza a pagina quando der submit
             console.log(this.state)
         }
 
