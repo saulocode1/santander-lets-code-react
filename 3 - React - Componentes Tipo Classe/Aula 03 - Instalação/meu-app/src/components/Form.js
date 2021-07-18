@@ -69,7 +69,6 @@ class Form extends React.Component {
                     <textarea cols="50" value={this.state.bio} onChange={this.changeBio}></textarea>
                 </label>
                 <input type="submit"></input>
-                
             </form>
         </>
     );

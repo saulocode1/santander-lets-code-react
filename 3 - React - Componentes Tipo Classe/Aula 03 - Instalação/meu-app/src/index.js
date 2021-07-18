@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Form from './components/Form';
+import Function from './components/Function';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Form>
-    </Form>
+    <Function>
+      <h1>Hello</h1>
+    </Function>
   </React.StrictMode>,
   document.getElementById('root')
 );
